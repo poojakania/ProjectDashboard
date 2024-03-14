@@ -1,0 +1,242 @@
+/* App.css */
+
+nav {
+  background-color: #333;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between; /* Align content at the ends */
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #ddd;
+}
+
+.navbar-content {
+  display: flex;
+  align-items: center; /* Vertically center content */
+}
+
+button {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-left: 20px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+/* App.css */
+
+/* Existing CSS styles... */
+
+.home {
+  text-align: center;
+}
+
+.home button {
+  margin-top: 20px;
+  background-color: hsl(46, 100%, 50%);
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.home button:hover {
+  background-color: #0056b3;
+}
+/* Add this to your CSS file */
+/* Add this to your CSS file */
+
+.content-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-column-gap: 20px;
+  padding-right: 20px;
+
+}
+
+.img_holder img {
+  max-width: 50%;
+  padding-left: 180px;
+  
+}
+
+@media (max-width: 768px) {
+  .content-grid {
+    grid-template-columns: 1fr;
+  }
+}
+/* Add this to your CSS file */
+
+.content-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-column-gap: 20px;
+  padding-right: 20px;
+  justify-items: center; /* Center items horizontally */
+}
+
+.img_holder img {
+  max-width: 70%; /* Ensure the image takes full width */
+}
+
+@media (max-width: 768px) {
+  .content-grid {
+    grid-template-columns: 1fr;
+  }
+}
+/* Add this to your CSS file */
+
+.theme-btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: hsl(46, 100%, 50%);
+  color: white;
+  text-decoration: none;
+  border: 2px solid hsl(46, 100%, 50%);
+  border-radius: 5px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.theme-btn:hover {
+  background-color: transparent;
+  color: hsl(46, 100%, 50%);
+}
+
+
+/* Add this to your CSS file */
+
+
+
+
+
+/* Add this to your CSS file */
+
+.sign-in-page {
+  display: flex;
+  height: 100vh; /* Set height to fill the entire viewport */
+  
+}
+.sign-up-page {
+  display: flex;
+  height: 100vh; /* Set height to fill the entire viewport */
+  
+}
+.side-bar img{
+ height: 100vh;
+ width:max-content
+}
+/* logo-bamfer02 2 */
+img{
+
+width: 450px;
+height: 54px;
+left: calc(50% - 591px/2 - 480.5px);
+top: 111px;
+
+
+}
+
+.content {
+  flex: 3; /* Set sign-in part larger */
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center content vertically */
+  justify-content: center; /* Center content horizontally */
+  background-color: #ccc;
+  /* Rectangle 6 */
+
+
+
+
+
+
+background: #EEF0F9;
+
+}
+
+/* .input-group {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+ padding: 20px;
+ 
+}
+
+.input-group input {
+ 
+ 
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+ 
+} */
+
+button {
+
+  background-color: #023f80;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color:  #184CA2;
+}
+
+
+.side-text {
+  flex: 2; /* Set side text smaller */
+  background-color:#184CA2;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Center text vertically */
+ 
+
+}
+
+@media (max-width: 768px) {
+  .sign-in-page {
+    flex-direction: column; /* Stack content vertically on smaller screens */
+  }
+
+  .side-text {
+    flex: 2; /* Equal size on smaller screens */
+  }
+
+  .content {
+    flex: 2; /* Equal size on smaller screens */
+  }
+
+  .input-group input {
+    width: 80%;
+  }
+}
