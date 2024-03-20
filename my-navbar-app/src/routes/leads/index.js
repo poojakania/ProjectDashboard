@@ -6,7 +6,7 @@ const Routes = [
     view: Login,
     layout: "leadsLayout",
     permission: "leads",
-    title: "Login Admin",
+    title: "Login Leads",
   },
 ];
 

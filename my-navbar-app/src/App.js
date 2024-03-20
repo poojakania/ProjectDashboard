@@ -3,36 +3,29 @@
 
 import React from "react";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import "./App.css";
+
+//TODO ADD IN LAYOUT INSTEAD
 import Navbar from "./components/Navbar";
 import Home from "./components/Home";
+//TODO END
+
+
+// TODO ADD IN ROUTES INSTEAD
 // import Login from './components/Login'
-import "./App.css";
 import Login from "./components/Login";
 import SignUp from "./components/SignUp";
 import SignUp2 from "./components/SignUp2";
+//TODO END
+
 import { library } from "@fortawesome/fontawesome-svg-core";
 import { fas } from "@fortawesome/free-solid-svg-icons";
 import AdminLayout from "./layout/AdminLayout";
 import UserLayout from "./layout/UserLayout";
 import LeadsLayout from "./layout/LeadsLayout";
-
+import RoutesConfig from "./routes"
 library.add(fas);
 // Import the NextPage component
-const LeadsRoutes = require("./routes/leads").default.map((route) => ({
-  ...route,
-  path: `/leads${route.path}`, // Add prefix "/leads" to leads routes
-}));
-
-const AdminRoutes = require("./routes/admin").default.map((route) => ({
-  ...route,
-  path: `/admin${route.path}`, // Add prefix "/admin" to admin routes
-}));
-
-const UserRoutes = require("./routes/user").default.map((route) => ({
-  ...route,
-  path: `/user${route.path}`, // Add prefix "/user" to user routes
-}));
-const RoutesConfig = [...LeadsRoutes, ...AdminRoutes, ...UserRoutes];
 
 function App() {
   return (
