@@ -4,7 +4,8 @@ nav {
   background-color: #333;
   padding: 10px 20px;
   display: flex;
-  justify-content: space-between; /* Align content at the ends */
+  justify-content: space-between;
+  /* Align content at the ends */
 }
 
 ul {
@@ -29,7 +30,8 @@ a:hover {
 
 .navbar-content {
   display: flex;
-  align-items: center; /* Vertically center content */
+  align-items: center;
+  /* Vertically center content */
 }
 
 button {
@@ -48,6 +50,7 @@ button {
 button:hover {
   background-color: #45a049;
 }
+
 /* App.css */
 
 /* Existing CSS styles... */
@@ -69,6 +72,7 @@ button:hover {
 .home button:hover {
   background-color: #0056b3;
 }
+
 /* Add this to your CSS file */
 /* Add this to your CSS file */
 
@@ -83,7 +87,7 @@ button:hover {
 .img_holder img {
   max-width: 50%;
   padding-left: 180px;
-  
+
 }
 
 @media (max-width: 768px) {
@@ -91,6 +95,7 @@ button:hover {
     grid-template-columns: 1fr;
   }
 }
+
 /* Add this to your CSS file */
 
 .content-grid {
@@ -98,11 +103,13 @@ button:hover {
   grid-template-columns: 1fr 1fr;
   grid-column-gap: 20px;
   padding-right: 20px;
-  justify-items: center; /* Center items horizontally */
+  justify-items: center;
+  /* Center items horizontally */
 }
 
 .img_holder img {
-  max-width: 70%; /* Ensure the image takes full width */
+  max-width: 70%;
+  /* Ensure the image takes full width */
 }
 
 @media (max-width: 768px) {
@@ -110,6 +117,7 @@ button:hover {
     grid-template-columns: 1fr;
   }
 }
+
 /* Add this to your CSS file */
 
 .theme-btn {
@@ -139,35 +147,43 @@ button:hover {
 
 .sign-in-page {
   display: flex;
-  height: 100vh; /* Set height to fill the entire viewport */
-  
+  height: 100vh;
+  /* Set height to fill the entire viewport */
+
 }
+
 .sign-up-page {
   display: flex;
-  height: 100vh; /* Set height to fill the entire viewport */
-  
-}
-.side-bar img{
- height: 100vh;
- width:max-content
-}
-/* logo-bamfer02 2 */
-img{
+  height: 100vh;
+  /* Set height to fill the entire viewport */
 
-width: 450px;
-height: 54px;
-left: calc(50% - 591px/2 - 480.5px);
-top: 111px;
+}
+
+.side-bar img {
+  height: 100vh;
+  width: max-content
+}
+
+/* logo-bamfer02 2 */
+img {
+
+  width: 450px;
+  height: 54px;
+  left: calc(50% - 591px/2 - 480.5px);
+  top: 111px;
 
 
 }
 
 .content {
-  flex: 3; /* Set sign-in part larger */
+  flex: 3;
+  /* Set sign-in part larger */
   display: flex;
   flex-direction: column;
-  align-items: center; /* Center content vertically */
-  justify-content: center; /* Center content horizontally */
+  align-items: center;
+  /* Center content vertically */
+  justify-content: center;
+  /* Center content horizontally */
   background-color: #ccc;
   /* Rectangle 6 */
 
@@ -176,7 +192,7 @@ top: 111px;
 
 
 
-background: #EEF0F9;
+  background: #EEF0F9;
 
 }
 
@@ -208,32 +224,37 @@ button {
 }
 
 button:hover {
-  background-color:  #184CA2;
+  background-color: #184CA2;
 }
 
 
 .side-text {
-  flex: 2; /* Set side text smaller */
-  background-color:#184CA2;
+  flex: 2;
+  /* Set side text smaller */
+  background-color: #184CA2;
   color: white;
   display: flex;
   flex-direction: column;
-  justify-content: center; /* Center text vertically */
- 
+  justify-content: center;
+  /* Center text vertically */
+
 
 }
 
 @media (max-width: 768px) {
   .sign-in-page {
-    flex-direction: column; /* Stack content vertically on smaller screens */
+    flex-direction: column;
+    /* Stack content vertically on smaller screens */
   }
 
   .side-text {
-    flex: 2; /* Equal size on smaller screens */
+    flex: 2;
+    /* Equal size on smaller screens */
   }
 
   .content {
-    flex: 2; /* Equal size on smaller screens */
+    flex: 2;
+    /* Equal size on smaller screens */
   }
 
   .input-group input {
