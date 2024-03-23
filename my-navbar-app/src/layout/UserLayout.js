@@ -4,10 +4,10 @@ const UserLayout = (props) => {
   return (
     <>
       <main className="user">
-        navigation user...
+        {/* navigation user... */}
         {props.children}
       </main>
-      footer...
+      {/* footer... */}
     </>
   );
 };

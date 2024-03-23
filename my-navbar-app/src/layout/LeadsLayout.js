@@ -4,10 +4,10 @@ const LeadsLayout = (props) => {
   return (
     <>
       <main className="leads">
-        navigation leads...
+        {/* navigation leads... */}
         {props.children}
       </main>
-      footer...
+      {/* footer... */}
     </>
   );
 };

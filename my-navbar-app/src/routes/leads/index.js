@@ -1,4 +1,5 @@
 import Login from "../../views/leads/Login";
+import Sidebar from "../../views/leads/dashboard";
 
 const Routes = [
   {
@@ -7,6 +8,13 @@ const Routes = [
     layout: "leadsLayout",
     permission: "leads",
     title: "Login Leads",
+  },
+  {
+    path: "/dashboard",
+    view: Sidebar,
+    layout: "leadsLayout",
+    permission: "leads",
+    title: "Dashboard Leads",
   },
 ];
 
