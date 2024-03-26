@@ -6,10 +6,10 @@ const Login = () => {
   return (
     <div className="sign-in-page">
       <div className="content">
-        <img src="../images/logo-bamfer02 2.png" alt="" className="img-fluid" />
+        <img src="../images/logo-bamfer02 2.png" alt="" className="img-fluid" style={{ width:"417px", height:"38px", margin:"0 0 20px 0" }} /> 
         <div
           className="login-form"
-          style={{ background: "#FFFFFF", padding: "20px", margin: "20px" }}
+          style={{ background: "#FFFFFF", padding: "20px", margin: "20px", borderRadius:"5px" }}
         >
           <h2 style={{ textAlign: "center", fontSize: "24px", margin: "10px" }}>
             LOGIN
@@ -22,7 +22,7 @@ const Login = () => {
               margin: "0 0 10px 0",
             }}
           >
-            Acces to our Dashboard
+            Access to our Dashboard
           </p>
           <form onSubmit={handleSignIn}>
             <label style={{ color: "#4C4C4C", fontSize: "16px", lineHeight: "19.5px" }}>
